@@ -24,6 +24,7 @@
 		BF5ED5191E70F302001FE1B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF5ED51B1E70F302001FE1B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF5ED5211E70F8EC001FE1B1 /* Test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
+		BF5ED5231E70FF31001FE1B1 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +64,7 @@
 				BF5ED5181E70F302001FE1B1 /* LaunchScreen.storyboard */,
 				BF5ED51B1E70F302001FE1B1 /* Info.plist */,
 				BF5ED5211E70F8EC001FE1B1 /* Test.swift */,
+				BF5ED5231E70FF31001FE1B1 /* MyPlayground.playground */,
 			);
 			path = BootCamp1;
 			sourceTree = "<group>";

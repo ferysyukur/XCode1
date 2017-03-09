@@ -9,9 +9,10 @@
 import UIKit
 
 class ViewController: UIViewController {
-    
+    // MARK: Var
     var Coba1 = "Coba1"
 
+    //MARK
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
