@@ -10,11 +10,13 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    let Coba1 = "Coba1"
+    var Coba1 = "Coba1"
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        Coba1 = "coba2"
     }
 
     override func didReceiveMemoryWarning() {
