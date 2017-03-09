@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0625540E6BD791705D3AD5F1 /* libPods-BootCamp1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 521072FCAF9AF4653D7A9E03 /* libPods-BootCamp1.a */; };
 		BF5ED5101E70F302001FE1B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5ED50F1E70F302001FE1B1 /* AppDelegate.swift */; };
 		BF5ED5121E70F302001FE1B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5ED5111E70F302001FE1B1 /* ViewController.swift */; };
 		BF5ED5151E70F302001FE1B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF5ED5131E70F302001FE1B1 /* Main.storyboard */; };
 		BF5ED5171E70F302001FE1B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF5ED5161E70F302001FE1B1 /* Assets.xcassets */; };
 		BF5ED51A1E70F302001FE1B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF5ED5181E70F302001FE1B1 /* LaunchScreen.storyboard */; };
 		BF5ED52A1E71309A001FE1B1 /* MovieViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5ED5291E71309A001FE1B1 /* MovieViewCell.swift */; };
+		BF6E4C651E715051004C5CCB /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6E4C641E715051004C5CCB /* Constant.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3CB60AC66EC6C4B875B5C062 /* Pods-BootCamp1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BootCamp1.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BootCamp1/Pods-BootCamp1.debug.xcconfig"; sourceTree = "<group>"; };
+		521072FCAF9AF4653D7A9E03 /* libPods-BootCamp1.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BootCamp1.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF5ED50C1E70F302001FE1B1 /* BootCamp1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BootCamp1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF5ED50F1E70F302001FE1B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BF5ED5111E70F302001FE1B1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -25,6 +29,9 @@
 		BF5ED51B1E70F302001FE1B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF5ED5231E70FF31001FE1B1 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
 		BF5ED5291E71309A001FE1B1 /* MovieViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieViewCell.swift; sourceTree = "<group>"; };
+		BF6E4C601E714FA4004C5CCB /* BootCamp1-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BootCamp1-Bridging-Header.h"; sourceTree = "<group>"; };
+		BF6E4C641E715051004C5CCB /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		F0D203D751A11BFC01BACAFC /* Pods-BootCamp1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BootCamp1.release.xcconfig"; path = "Pods/Target Support Files/Pods-BootCamp1/Pods-BootCamp1.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,17 +39,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0625540E6BD791705D3AD5F1 /* libPods-BootCamp1.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		22EA64690E1E8F6C1D5CA82C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3CB60AC66EC6C4B875B5C062 /* Pods-BootCamp1.debug.xcconfig */,
+				F0D203D751A11BFC01BACAFC /* Pods-BootCamp1.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4493AE388597FF7CF14D2CD6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				521072FCAF9AF4653D7A9E03 /* libPods-BootCamp1.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BF5ED5031E70F301001FE1B1 = {
 			isa = PBXGroup;
 			children = (
 				BF5ED50E1E70F302001FE1B1 /* BootCamp1 */,
 				BF5ED50D1E70F302001FE1B1 /* Products */,
+				22EA64690E1E8F6C1D5CA82C /* Pods */,
+				4493AE388597FF7CF14D2CD6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -65,6 +92,8 @@
 				BF5ED5181E70F302001FE1B1 /* LaunchScreen.storyboard */,
 				BF5ED51B1E70F302001FE1B1 /* Info.plist */,
 				BF5ED5231E70FF31001FE1B1 /* MyPlayground.playground */,
+				BF6E4C601E714FA4004C5CCB /* BootCamp1-Bridging-Header.h */,
+				BF6E4C641E715051004C5CCB /* Constant.swift */,
 			);
 			path = BootCamp1;
 			sourceTree = "<group>";
@@ -108,9 +137,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BF5ED51E1E70F302001FE1B1 /* Build configuration list for PBXNativeTarget "BootCamp1" */;
 			buildPhases = (
+				8EC6AF5390D19442D6B90A3D /* [CP] Check Pods Manifest.lock */,
 				BF5ED5081E70F301001FE1B1 /* Sources */,
 				BF5ED5091E70F301001FE1B1 /* Frameworks */,
 				BF5ED50A1E70F301001FE1B1 /* Resources */,
+				A55D1BC0811FF75820108F2B /* [CP] Embed Pods Frameworks */,
+				6EB0B02AE4A1D013D6410D2D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -134,6 +166,7 @@
 					BF5ED50B1E70F301001FE1B1 = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = 9TYPM424C7;
+						LastSwiftMigration = 0810;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -169,6 +202,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6EB0B02AE4A1D013D6410D2D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BootCamp1/Pods-BootCamp1-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8EC6AF5390D19442D6B90A3D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A55D1BC0811FF75820108F2B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BootCamp1/Pods-BootCamp1-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BF5ED5081E70F301001FE1B1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -177,6 +258,7 @@
 				BF5ED5121E70F302001FE1B1 /* ViewController.swift in Sources */,
 				BF5ED5101E70F302001FE1B1 /* AppDelegate.swift in Sources */,
 				BF5ED52A1E71309A001FE1B1 /* MovieViewCell.swift in Sources */,
+				BF6E4C651E715051004C5CCB /* Constant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,26 +379,33 @@
 		};
 		BF5ED51F1E70F302001FE1B1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CB60AC66EC6C4B875B5C062 /* Pods-BootCamp1.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 9TYPM424C7;
 				INFOPLIST_FILE = BootCamp1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ferysyukur.BootCamp1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BootCamp1/BootCamp1-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		BF5ED5201E70F302001FE1B1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0D203D751A11BFC01BACAFC /* Pods-BootCamp1.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 9TYPM424C7;
 				INFOPLIST_FILE = BootCamp1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ferysyukur.BootCamp1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BootCamp1/BootCamp1-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
