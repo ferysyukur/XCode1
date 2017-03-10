@@ -16,5 +16,6 @@ class MovieViewCell: UICollectionViewCell {
     }
     @IBOutlet weak var lblTitle: UILabel!
     @IBOutlet weak var lblDesc: UILabel!
+    @IBOutlet weak var loading: UIActivityIndicatorView!
     
 }

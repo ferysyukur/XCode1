@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0625540E6BD791705D3AD5F1 /* libPods-BootCamp1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 521072FCAF9AF4653D7A9E03 /* libPods-BootCamp1.a */; };
+		0C7ED02DAAB51A4B2130B179 /* Pods_BootCamp1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C08DC2ED5A2CF8EBA9801DA /* Pods_BootCamp1.framework */; };
 		BF5ED5101E70F302001FE1B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5ED50F1E70F302001FE1B1 /* AppDelegate.swift */; };
 		BF5ED5121E70F302001FE1B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5ED5111E70F302001FE1B1 /* ViewController.swift */; };
 		BF5ED5151E70F302001FE1B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF5ED5131E70F302001FE1B1 /* Main.storyboard */; };
@@ -15,11 +15,25 @@
 		BF5ED51A1E70F302001FE1B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF5ED5181E70F302001FE1B1 /* LaunchScreen.storyboard */; };
 		BF5ED52A1E71309A001FE1B1 /* MovieViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5ED5291E71309A001FE1B1 /* MovieViewCell.swift */; };
 		BF6E4C651E715051004C5CCB /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6E4C641E715051004C5CCB /* Constant.swift */; };
+		BF6E4C691E7232E3004C5CCB /* MovieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6E4C681E7232E3004C5CCB /* MovieModel.swift */; };
+		BF6E4C6C1E723F35004C5CCB /* Engine.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6E4C6B1E723F35004C5CCB /* Engine.swift */; };
+		BF6E4C701E7240B1004C5CCB /* EndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6E4C6F1E7240B1004C5CCB /* EndPoint.swift */; };
+		BF6E4C7A1E727CA6004C5CCB /* BootCamp1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6E4C791E727CA6004C5CCB /* BootCamp1UITests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF6E4C7C1E727CA6004C5CCB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF5ED5041E70F301001FE1B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF5ED50B1E70F301001FE1B1;
+			remoteInfo = BootCamp1;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		3CB60AC66EC6C4B875B5C062 /* Pods-BootCamp1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BootCamp1.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BootCamp1/Pods-BootCamp1.debug.xcconfig"; sourceTree = "<group>"; };
-		521072FCAF9AF4653D7A9E03 /* libPods-BootCamp1.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BootCamp1.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C08DC2ED5A2CF8EBA9801DA /* Pods_BootCamp1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BootCamp1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF5ED50C1E70F302001FE1B1 /* BootCamp1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BootCamp1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF5ED50F1E70F302001FE1B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BF5ED5111E70F302001FE1B1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -31,6 +45,12 @@
 		BF5ED5291E71309A001FE1B1 /* MovieViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieViewCell.swift; sourceTree = "<group>"; };
 		BF6E4C601E714FA4004C5CCB /* BootCamp1-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BootCamp1-Bridging-Header.h"; sourceTree = "<group>"; };
 		BF6E4C641E715051004C5CCB /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		BF6E4C681E7232E3004C5CCB /* MovieModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieModel.swift; sourceTree = "<group>"; };
+		BF6E4C6B1E723F35004C5CCB /* Engine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Engine.swift; sourceTree = "<group>"; };
+		BF6E4C6F1E7240B1004C5CCB /* EndPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EndPoint.swift; sourceTree = "<group>"; };
+		BF6E4C771E727CA6004C5CCB /* BootCamp1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BootCamp1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF6E4C791E727CA6004C5CCB /* BootCamp1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BootCamp1UITests.swift; sourceTree = "<group>"; };
+		BF6E4C7B1E727CA6004C5CCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F0D203D751A11BFC01BACAFC /* Pods-BootCamp1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BootCamp1.release.xcconfig"; path = "Pods/Target Support Files/Pods-BootCamp1/Pods-BootCamp1.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -39,7 +59,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0625540E6BD791705D3AD5F1 /* libPods-BootCamp1.a in Frameworks */,
+				0C7ED02DAAB51A4B2130B179 /* Pods_BootCamp1.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF6E4C741E727CA6004C5CCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,7 +85,7 @@
 		4493AE388597FF7CF14D2CD6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				521072FCAF9AF4653D7A9E03 /* libPods-BootCamp1.a */,
+				4C08DC2ED5A2CF8EBA9801DA /* Pods_BootCamp1.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -67,6 +94,7 @@
 			isa = PBXGroup;
 			children = (
 				BF5ED50E1E70F302001FE1B1 /* BootCamp1 */,
+				BF6E4C781E727CA6004C5CCB /* BootCamp1UITests */,
 				BF5ED50D1E70F302001FE1B1 /* Products */,
 				22EA64690E1E8F6C1D5CA82C /* Pods */,
 				4493AE388597FF7CF14D2CD6 /* Frameworks */,
@@ -77,6 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				BF5ED50C1E70F302001FE1B1 /* BootCamp1.app */,
+				BF6E4C771E727CA6004C5CCB /* BootCamp1UITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -94,6 +123,7 @@
 				BF5ED5231E70FF31001FE1B1 /* MyPlayground.playground */,
 				BF6E4C601E714FA4004C5CCB /* BootCamp1-Bridging-Header.h */,
 				BF6E4C641E715051004C5CCB /* Constant.swift */,
+				BF6E4C6F1E7240B1004C5CCB /* EndPoint.swift */,
 			);
 			path = BootCamp1;
 			sourceTree = "<group>";
@@ -101,6 +131,7 @@
 		BF5ED5251E7123F8001FE1B1 /* Clases */ = {
 			isa = PBXGroup;
 			children = (
+				BF6E4C6A1E723F25004C5CCB /* Engine */,
 				BF5ED5261E7123F8001FE1B1 /* Controller */,
 				BF5ED5271E7123F8001FE1B1 /* Model */,
 				BF5ED5281E7123F8001FE1B1 /* View */,
@@ -118,6 +149,7 @@
 		BF5ED5271E7123F8001FE1B1 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				BF6E4C681E7232E3004C5CCB /* MovieModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -128,6 +160,23 @@
 				BF5ED5291E71309A001FE1B1 /* MovieViewCell.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		BF6E4C6A1E723F25004C5CCB /* Engine */ = {
+			isa = PBXGroup;
+			children = (
+				BF6E4C6B1E723F35004C5CCB /* Engine.swift */,
+			);
+			path = Engine;
+			sourceTree = "<group>";
+		};
+		BF6E4C781E727CA6004C5CCB /* BootCamp1UITests */ = {
+			isa = PBXGroup;
+			children = (
+				BF6E4C791E727CA6004C5CCB /* BootCamp1UITests.swift */,
+				BF6E4C7B1E727CA6004C5CCB /* Info.plist */,
+			);
+			path = BootCamp1UITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,6 +202,24 @@
 			productReference = BF5ED50C1E70F302001FE1B1 /* BootCamp1.app */;
 			productType = "com.apple.product-type.application";
 		};
+		BF6E4C761E727CA6004C5CCB /* BootCamp1UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF6E4C7E1E727CA6004C5CCB /* Build configuration list for PBXNativeTarget "BootCamp1UITests" */;
+			buildPhases = (
+				BF6E4C731E727CA6004C5CCB /* Sources */,
+				BF6E4C741E727CA6004C5CCB /* Frameworks */,
+				BF6E4C751E727CA6004C5CCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF6E4C7D1E727CA6004C5CCB /* PBXTargetDependency */,
+			);
+			name = BootCamp1UITests;
+			productName = BootCamp1UITests;
+			productReference = BF6E4C771E727CA6004C5CCB /* BootCamp1UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -168,6 +235,12 @@
 						DevelopmentTeam = 9TYPM424C7;
 						LastSwiftMigration = 0810;
 						ProvisioningStyle = Automatic;
+					};
+					BF6E4C761E727CA6004C5CCB = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 9TYPM424C7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BF5ED50B1E70F301001FE1B1;
 					};
 				};
 			};
@@ -185,6 +258,7 @@
 			projectRoot = "";
 			targets = (
 				BF5ED50B1E70F301001FE1B1 /* BootCamp1 */,
+				BF6E4C761E727CA6004C5CCB /* BootCamp1UITests */,
 			);
 		};
 /* End PBXProject section */
@@ -197,6 +271,13 @@
 				BF5ED51A1E70F302001FE1B1 /* LaunchScreen.storyboard in Resources */,
 				BF5ED5171E70F302001FE1B1 /* Assets.xcassets in Resources */,
 				BF5ED5151E70F302001FE1B1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF6E4C751E727CA6004C5CCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,13 +337,32 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF5ED5121E70F302001FE1B1 /* ViewController.swift in Sources */,
+				BF6E4C6C1E723F35004C5CCB /* Engine.swift in Sources */,
 				BF5ED5101E70F302001FE1B1 /* AppDelegate.swift in Sources */,
+				BF6E4C691E7232E3004C5CCB /* MovieModel.swift in Sources */,
 				BF5ED52A1E71309A001FE1B1 /* MovieViewCell.swift in Sources */,
+				BF6E4C701E7240B1004C5CCB /* EndPoint.swift in Sources */,
 				BF6E4C651E715051004C5CCB /* Constant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BF6E4C731E727CA6004C5CCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF6E4C7A1E727CA6004C5CCB /* BootCamp1UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF6E4C7D1E727CA6004C5CCB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF5ED50B1E70F301001FE1B1 /* BootCamp1 */;
+			targetProxy = BF6E4C7C1E727CA6004C5CCB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		BF5ED5131E70F302001FE1B1 /* Main.storyboard */ = {
@@ -410,6 +510,32 @@
 			};
 			name = Release;
 		};
+		BF6E4C7F1E727CA6004C5CCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 9TYPM424C7;
+				INFOPLIST_FILE = BootCamp1UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ferysyukur.BootCamp1UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = BootCamp1;
+			};
+			name = Debug;
+		};
+		BF6E4C801E727CA6004C5CCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 9TYPM424C7;
+				INFOPLIST_FILE = BootCamp1UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ferysyukur.BootCamp1UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = BootCamp1;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -430,6 +556,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		BF6E4C7E1E727CA6004C5CCB /* Build configuration list for PBXNativeTarget "BootCamp1UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF6E4C7F1E727CA6004C5CCB /* Debug */,
+				BF6E4C801E727CA6004C5CCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};

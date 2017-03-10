@@ -11,6 +11,31 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--View Controller-->
+        <scene sceneID="GMh-rM-EWZ">
+            <objects>
+                <viewController id="WYW-lX-rgy" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="KHP-Jl-zAZ"/>
+                        <viewControllerLayoutGuide type="bottom" id="VMy-5U-elz"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="lCc-AC-qRo">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3K3-7f-1d4">
+                                <rect key="frame" x="164" y="318" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aie-es-CcB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-951" y="-93"/>
+        </scene>
         <!--Movies-->
         <scene sceneID="tne-QT-ifu">
             <objects>
@@ -59,6 +84,9 @@
                                                     <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="LQO-op-KYC">
+                                                    <rect key="frame" x="78" y="105" width="20" height="20"/>
+                                                </activityIndicatorView>
                                             </subviews>
                                         </view>
                                         <constraints>
@@ -68,7 +96,9 @@
                                             <constraint firstAttribute="trailing" secondItem="zeN-09-Rh8" secondAttribute="trailing" id="CiD-ae-dKf"/>
                                             <constraint firstAttribute="trailingMargin" secondItem="0Lw-dv-jMS" secondAttribute="trailing" id="D14-3m-Mgx"/>
                                             <constraint firstItem="0Lw-dv-jMS" firstAttribute="top" secondItem="edG-FR-ftY" secondAttribute="bottom" constant="8" id="V1O-sp-s7X"/>
+                                            <constraint firstItem="LQO-op-KYC" firstAttribute="centerX" secondItem="zeN-09-Rh8" secondAttribute="centerX" id="XD3-Mc-Hmt"/>
                                             <constraint firstItem="edG-FR-ftY" firstAttribute="top" secondItem="zeN-09-Rh8" secondAttribute="bottom" constant="8" id="mHW-V0-6YE"/>
+                                            <constraint firstItem="LQO-op-KYC" firstAttribute="centerY" secondItem="zeN-09-Rh8" secondAttribute="centerY" id="nc9-M4-079"/>
                                             <constraint firstItem="zeN-09-Rh8" firstAttribute="leading" secondItem="nYh-gS-7zV" secondAttribute="leading" id="plM-QJ-mMc"/>
                                             <constraint firstItem="zeN-09-Rh8" firstAttribute="top" secondItem="nYh-gS-7zV" secondAttribute="top" id="pvA-mB-AsF"/>
                                         </constraints>
@@ -76,6 +106,7 @@
                                             <outlet property="imgMovie" destination="zeN-09-Rh8" id="H8d-j0-7fD"/>
                                             <outlet property="lblDesc" destination="0Lw-dv-jMS" id="7w4-a3-vNS"/>
                                             <outlet property="lblTitle" destination="edG-FR-ftY" id="Lod-Nc-vtt"/>
+                                            <outlet property="loading" destination="LQO-op-KYC" id="Ejw-64-N3n"/>
                                         </connections>
                                     </collectionViewCell>
                                 </cells>
